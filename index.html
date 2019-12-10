@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Astra-Home</title>
+
+  <!-- Font Awesome Icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet" type="text/css">
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
+
+  <!-- Plugin CSS -->
+  <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+  <!-- Theme CSS - Includes Bootstrap -->
+  <link href="css/creative.css" rel="stylesheet">
+  
+  <style>
+
+header {
+  position: relative;
+  background-color: black;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black ;
+  opacity: 0.2;
+  z-index: 1;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #e25822, 0 0 20px #e25822, 0 0 30px #e25822, 0 0 40px #e25822, 0 0 50px #e25822, 0 0 60px #e25822, 0 0 70px #e25822 ,0 0 80px #e25822;
+  }
+  
+  to {
+    text-shadow:  0 0 30px #03981e, 0 0 40px #03981e, 0 0 50px #03981e, 0 0 60px #03981e, 0 0 70px #03981e, 0 0 80px #03981e ,0 0 90px #03981e;
+  }
+}
+
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(-20deg);
+		}
+		to {
+				-webkit-transform: rotate(20deg);
+		}
+}
+
+@-webkit-keyframes rotationp {
+		from {
+				-webkit-transform: rotate(-25deg);
+		}
+		to {
+				-webkit-transform: rotate(10deg);
+		}
+}
+
+@-webkit-keyframes jump-jump-3 {
+  0%, 10% {
+    box-shadow: 2px 2px 5px 2px rgba(255,255,255, 0.3);
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  100% {
+    box-shadow: 10px 10px 15px 0 rgba(255,255,255, 0.5);
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@keyframes jump-jump-3 {
+  0%, 10% {
+    box-shadow: 2px 2px 5px 2px rgba(255,255,255, 0.3);
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  100% {
+    box-shadow: 10px 10px 15px 0 rgba(255,255,255, 0.5);
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+</style>
+
+</head>
+
+<body id="page-top">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">
+	  <img src="Resources\astralogo.png" width="50" height="30" class="d-inline-block rounded-circle align-top" alt="">
+	  Astra</a>
+	  <img src="Resources\amritalogo.png" width="120" height="30" class="d-inline-block align-top" alt="">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto my-2 my-lg-0">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#services">Events</a>
+          </li>
+		  <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#blog">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#portfolio"> Gallery </a>
+          </li>
+		  <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#team">Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Masthead -->
+  <header class="masthead">
+  <div class="overlay"></div>
+	<video playsinline="playsinline" autoplay="autoplay" loop="loop">
+		<source src="Resources\Video.mp4" type="video/mp4">
+	</video>
+    <div class="container h-100">
+      <div class="row h-100 align-items-center justify-content-center text-center">
+        <div class="col-lg-10 align-self-end">
+		  <h1 class="font-weight-bold mt-2" style ="font-family :Papyrus ; color : Ivory ; -webkit-animation: glow 1s ease-in-out infinite alternate; -moz-animation: glow 1s ease-in-out infinite alternate; animation: glow 1s ease-in-out infinite alternate;">Astra Club...</h1>
+          <hr class="divider light my-4">
+        </div>
+        <div class="col-lg-8 align-self-baseline">
+          <p class="lead mb-4" style="color : Ivory; text-shadow: 0 0 10px #324c6b, 0 0 20px #324c6b, 0 0 30px #324c6b, 0 0 40px #324c6b, 0 0 50px #324c6b, 0 0 60px #324c6b, 0 0 70px #324c6b;"> The immense Cosmos beholds staggering mysteries, waiting to be unfolded.</p>
+		  <p class="lead mb-4" style="color : Ivory ; text-shadow: 0 0 10px #324c6b, 0 0 20px #324c6b, 0 0 30px #324c6b, 0 0 40px #324c6b, 0 0 50px #324c6b, 0 0 60px #324c6b, 0 0 70px #324c6b;"> Join us to demystify what lays beyond and unravel the secrets !</p>
+		  <h1 class="mb-4" style="color : Aliceblue ; font-family :Monotype Corsiva">" Explore - Discover - Collaborate "</h1>
+          <a class="btn btn-primary btn-xl js-scroll-trigger" href="https://docs.google.com/forms/d/e/1FAIpQLSdyzIiqzuUeH7SQlurszgpqg0YNfHcyUGMbVgSdskaIOrHfrA/viewform">Join Us !</a>
+        </div>
+		
+		<div class="col-lg-8 align-self-baseline" id="recentinfo">
+		<hr class="divider light my-4">
+		
+		</div>
+      </div>
+    </div>
+  </header>
+  
+  <!-- About Section -->
+  <section class="page-section bg-primary" id="about">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center">
+          <h2 class="text-white mt-0">We've got you something excited !</h2>
+          <hr class="divider light my-4">
+          <p class="text-white-50 mb-4">
+		  Every time we look up into the abyss of space, its sheer immensity never fails to leave us in awe. Its not a mere obsequious ordeal, rather loose the consciousness from gazing up at the starry studded  sky with eyes brimming with nothing less than blazing curiosity and adoration. 
+		  The Astronomy club of Amrita, Astra just strives to preserve that feeling and reciprocate that passion to the public. <br> <br> As Mark Twain words, “ I love to revel in philosophical matters--especially astronomy. 
+		  I study astronomy more than any other foolishness there is. I am a perfect slave to it. I am at it all the time. I have got more smoked glass than clothes. I am as familiar with the stars as the comets are. I know all the facts and figures and I have all the knowledge there is concerning them. 
+		  I yelp astronomy like a sun-dog, and paw the constellations like Ursa Major." <br> <br> We promote the love for astronomy through any domain there is, literature; science; mathematics; music, anything there is. </p>
+		  <a class="btn btn-light btn-xl js-scroll-trigger" href="https://docs.google.com/forms/d/e/1FAIpQLSdyzIiqzuUeH7SQlurszgpqg0YNfHcyUGMbVgSdskaIOrHfrA/viewform"><i class="far fa-address-card fa-3x mb-1 "></i><div>Sign Up !</div></a>
+		  <a class="btn btn-light btn-xl js-scroll-trigger" href="#team"><i class="fas fa-users fa-3x mb-1 "></i><div>Our Members</div></a>
+		  <a class="btn btn-light btn-xl js-scroll-trigger" href="https://drive.google.com/drive/folders/1xqG6SvBBat-UAnaQJd9Qu1b0WDPHojkL?usp=sharing"><i class="fas fa-edit fa-3x mb-1 "></i><div>Our Magazine</div></a>
+		</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="page-section" id="services">
+    <div class="container">
+      <h2 class="text-center text-primary mt-0">Astra Events !</h2>
+      <hr class="divider my-4">
+      <div class="row align-items-center justify-content-center" id="eventlist">
+        
+      </div>
+    </div>
+  </section>
+  
+  <!-- Call to Action Section -->
+  <section class="page-section bg-primary text-white" id="blog">
+    <div class="container text-center">
+      <h2 class="mb-4">Stay In Touch with our Social Media blogs !</h2>
+	  <hr class="divider light my-4">
+	  <div class="row align-items-center justify-content-center text-center">
+		<a class="btn btn-primary btn-ro rounded-circle" style="background:#d6249f ; box-shadow: 0px 0px 12px aliceblue;" href="https://www.instagram.com/astraclubcbe/"><i class="fab fa-instagram fa-3x"></i></a>
+		<a class="btn btn-light btn-ro rounded-circle" style="color:#fff; background:#DD4B39; box-shadow: 0px 0px 12px 0 aliceblue;" href="mailto:astraclubcbe@gmail.com"><i class="far fa-envelope fa-3x"></i></a>
+	  </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section class="page-section" id="portfolio">
+	  <h2 class="text-center text-primary mt-0">Astra Collection Gallery !</h2>
+      <hr class="divider my-4">
+	  <p class="text-center mb-5">An Astra collection of our club members, Vijayatha V, Athul.</p>
+    <div class="container-fluid p-0">
+      <div class="row no-gutters">
+        <div class="col-lg-4 col-sm-6" style="box-shadow: 0px 0px 8px #003666;">
+          <a class="portfolio-box" title="Lagoon" href="img/portfolio/fullsize/Lagoon.PNG">
+            <img class="img-fluid" src="img/portfolio/thumbnails/Lagoon.PNG" alt="">
+            <div class="portfolio-box-caption">
+              <div class="project-category text-white-50">
+                Click to View Full Size
+              </div>
+              <div class="project-name">
+                Lagoon
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-6" style="box-shadow: 0px 0px 8px #003666;">
+          <a class="portfolio-box" title="M42" href="img/portfolio/fullsize/M42.PNG">
+            <img class="img-fluid" src="img/portfolio/thumbnails/M42.PNG" alt="">
+            <div class="portfolio-box-caption">
+              <div class="project-category text-white-50">
+                Click to View Full Size
+              </div>
+              <div class="project-name">
+                M42
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-6" style="box-shadow: 0px 0px 8px #003666;">
+          <a class="portfolio-box" title="Moon" href="img/portfolio/fullsize/moon.PNG">
+            <img class="img-fluid" src="img/portfolio/thumbnails/moon.PNG" alt="">
+            <div class="portfolio-box-caption">
+				<div class="project-category text-white-50">
+                Click to View Full Size
+              </div>
+              <div class="project-name">
+                Moon
+              </div>
+            </div>
+          </a>
+        </div>
+		<div class="col-lg-4 col-sm-6" style="box-shadow: 0px 0px 8px #003666;">
+          <a class="portfolio-box" title="Blue Sky" href="img/portfolio/fullsize/Bluesky.png">
+            <img class="img-fluid" src="img/portfolio/thumbnails/Bluesky.png" alt="">
+            <div class="portfolio-box-caption">
+              <div class="project-category text-white-50">
+                Click to View Full Size
+              </div>
+              <div class="project-name">
+                Blue Sky
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-6" style="box-shadow: 0px 0px 8px #003666;">
+          <a class="portfolio-box" title="NGC98_M33" href="img/portfolio/fullsize/NGC98_M33.PNG">
+            <img class="img-fluid" src="img/portfolio/thumbnails/NGC98_M33.PNG" alt="">
+            <div class="portfolio-box-caption">
+              <div class="project-category text-white-50">
+                Click to View Full Size
+              </div>
+              <div class="project-name">
+                NGC98_M33
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-6" style="box-shadow: 0px 0px 8px #003666;">
+          <a class="portfolio-box" title="Pleiades" href="img/portfolio/fullsize/pleiades.PNG">
+            <img class="img-fluid" src="img/portfolio/thumbnails/pleiades.PNG" alt="">
+            <div class="portfolio-box-caption">
+			<div class="project-category text-white-50">
+                Click to View Full Size
+              </div>
+              <div class="project-name">
+                Pleiades
+              </div>
+            </div>
+          </a>
+        </div>
+		<div class="col-lg-4 col-sm-6" style="box-shadow: 0px 0px 8px #003666;">
+          <a class="portfolio-box" title="Night Sky" href="img/portfolio/fullsize/Nightsky.png">
+            <img class="img-fluid" src="img/portfolio/thumbnails/Nightsky.png" alt="">
+            <div class="portfolio-box-caption">
+              <div class="project-category text-white-50">
+                Click to View Full Size
+              </div>
+              <div class="project-name">
+                Night Sky
+              </div>
+            </div>
+          </a>
+        </div>
+		<div class="col-lg-4 col-sm-6" style="box-shadow: 0px 0px 8px #003666;">
+          <a class="portfolio-box" title="Watchout" href="img/portfolio/fullsize/Watchout.png">
+            <img class="img-fluid" src="img/portfolio/thumbnails/Watchout.png" alt="">
+            <div class="portfolio-box-caption">
+              <div class="project-category text-white-50">
+                Click to View Full Size
+              </div>
+              <div class="project-name">
+                Watchout
+              </div>
+            </div>
+          </a>
+        </div>
+		<div class="col-lg-4 col-sm-6" style="box-shadow: 0px 0px 8px #003666;">
+          <a class="portfolio-box" title="Stars" href="img/portfolio/fullsize/Stars.png">
+            <img class="img-fluid" src="img/portfolio/thumbnails/Stars.png" alt="">
+            <div class="portfolio-box-caption">
+              <div class="project-category text-white-50">
+                Click to View Full Size
+              </div>
+              <div class="project-name">
+                Stars
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Contact Section -->
+  <section class="page-section bg-primary text-white" id="team">
+    <div class="container text-center">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center">
+          <h2 class="mt-0">Astra Team !</h2>
+          <hr class="divider light my-4">
+        </div>
+      </div>
+	  
+	  <div class="row align-items-center justify-content-center" id="faculty">
+        
+		 <!--Data from sheets -->
+		
+      </div>
+	  
+	  <div class="row align-items-center justify-content-center" id="Pres">
+        
+		 <!--Data from sheets -->
+		
+      </div>
+	  
+	  <div class="row align-items-center justify-content-center" id="editor">
+        
+		<!--Data from sheets -->
+		
+      </div>
+	  
+	  <div class="row justify-content-center">
+        <div class="col-lg-8 text-center">
+          <h2 class="mt-5">Members !</h2>
+          <hr class="divider light my-4">
+        </div>
+      </div>
+	  
+	  <div class="row align-items-center justify-content-center" id="members">
+	  
+	  <!--Data from sheets -->
+		
+	  </div>
+	  
+	  <div class="row align-items-center justify-content-center">
+        <div class="col-lg-4 text-center mt-5 mb-5 mb-lg-0">
+          <i class="fas fa-universal-access fa-3x mb-3"></i>
+		  <div><h4>A Divyananda Dileep</h4></div>
+          <div>Member & Web Designer</div>
+		  <div class="d-block">Computer Science and Engineering</div>
+        </div>
+      </div>
+	  
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="page-section" id="contact">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center">
+          <h2 class="text-primary mt-0">Let's Get In Touch !</h2>
+          <hr class="divider my-4">
+          <p class="text-muted mb-5">Give us a call and we will get back to you as soon as possible !</p>
+        </div>
+      </div>
+	  
+      <div class="row align-items-center justify-content-center" id="contactinfo">
+        
+		<!--Data from sheets -->
+		
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-primary py-5">
+    <div class="container">
+      <div class="small text-light text-center">Copyright &copy; addileep_ind 2019</div>
+    </div>
+  </footer>
+  
+  
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/creative.min.js"></script>
+  
+  <!-- Scripts for this template -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.js"></script>
+ 
+  <script>
+  
+  var urleventsdata = "https://spreadsheets.google.com/feeds/list/1ZiVNuWV_Yh3Xq6_wMtP-zkPJcmgzztEliWtX-rMDP98/od6/public/values?alt=json";
+  var urlmembersdata = "https://spreadsheets.google.com/feeds/list/1Pcijz7YPDXkqRipNe88Gn1BzKfM_6CEH3DUURexlXHg/od6/public/values?alt=json";
+  var urlcontactinfo = "https://spreadsheets.google.com/feeds/list/1zotZK0cbgkt4U1ZCrxazkZ_SdDRgh3Xph6qvQg2f0H8/od6/public/values?alt=json";
+  var urlrecentinfo = "https://spreadsheets.google.com/feeds/list/1qq9HK3zIpCVjMIBAmphumHK1XoVKuOJDx4PlG_TMB_w/od6/public/values?alt=json";
+  var urlteaminfo = "https://spreadsheets.google.com/feeds/list/12CnqUEOpVRTHX7Ks6ZWSFnhdb7teO_PbO-7e1iwj3sU/od6/public/values?alt=json";
+  
+ $.getJSON(urlrecentinfo, function(data) {
+
+  var sheetData = data.feed.entry;
+
+      var i;
+      for (i = 0; i<3; i++) {
+
+        var title = data.feed.entry[i]['gsx$_cn6ca']['$t'];
+		var info = data.feed.entry[i]['gsx$_cokwr']['$t'];
+
+        document.getElementById('recentinfo').innerHTML += ('<div class="alert alert-success alert-dismissable" style="color: aliceblue;background:transparent;border:none;-webkit-animation-fill-mode: both;-moz-animation-fill-mode: both; animation-fill-mode: both;-webkit-animation: jump-jump-3 2s cubic-bezier(0.21, 0.98, 0.6, 0.99) infinite alternate;animation: jump-jump-3 2s cubic-bezier(0.21, 0.98, 0.6, 0.99) infinite alternate; -moz-animation:jump-jump-3 2s cubic-bezier(0.21, 0.98, 0.6, 0.99) infinite alternate;"><button type="button" class="close" data-dismiss="alert" style="color: aliceblue;">&times;</button><strong> '+title+' ! </strong>'+info+'</div>');
+
+      }
+ });
+  
+ $.getJSON(urleventsdata, function(data) {
+
+  var sheetData = data.feed.entry;
+
+      var i;
+      for (i = 0; i<sheetData.length; i++) {
+
+        var iconname = data.feed.entry[i]['gsx$_cn6ca']['$t'];
+        var eventname = data.feed.entry[i]['gsx$_cokwr']['$t'];
+		var eventdetail = data.feed.entry[i]['gsx$_cpzh4']['$t'];
+
+        document.getElementById('eventlist').innerHTML += ('<div class="col-lg-3 col-md-6 text-center"><div class="mt-5">'+iconname+'<h3 class="h4 mb-2">'+eventname+'</h3><p class="text-muted mb-0">'+eventdetail+'</p></div></div>');
+
+      }
+ });
+ 
+ $.getJSON(urlteaminfo, function(data) {
+
+  var sheetData = data.feed.entry;
+
+      var i;
+      for (i = 0; i<sheetData.length; i++) {
+
+        var name = data.feed.entry[i]['gsx$_cn6ca']['$t'];
+        var role = data.feed.entry[i]['gsx$_cokwr']['$t'];
+		var designation = data.feed.entry[i]['gsx$_cpzh4']['$t'];
+
+		if(i==0)
+		{
+			document.getElementById('faculty').innerHTML += ('<div class="col-lg-4 text-center mt-5 mb-5 mb-lg-0"><i class="fas fa-chalkboard-teacher fa-4x mb-3"></i><div><h4>'+name+'</h4></div><div>'+role+'</div><div class="d-block">'+designation+'</div></div>');
+		}
+		
+		if(i==1)
+		{
+			document.getElementById('Pres').innerHTML += ('<div class="col-lg-4 text-center mt-5 mb-5 mb-lg-0"><i class="fas fa-id-card-alt fa-4x mb-3"></i><div><h4>'+name+'</h4></div><div>'+role+'</div><div class="d-block">'+designation+'</div></div>');
+		}
+        
+		if(i==2 || i==3)
+		{
+			document.getElementById('Pres').innerHTML += ('<div class="col-lg-4 text-center mt-5 mb-5 mb-lg-0"><i class="fas fa-id-badge fa-3x mb-3"></i><div><h5>'+name+'</h5></div><div>'+role+'</div><div class="d-block">'+designation+'</div></div>');
+		}
+		
+		if(i==4)
+		{
+			document.getElementById('editor').innerHTML += ('<div class="col-lg-3 text-center mt-5 mb-5 mb-lg-0"><i class="fas fa-user-edit fa-3x mb-3"></i><div><h4>'+name+'</h4></div><div>'+role+'</div><div class="d-block">'+designation+'</div></div>');
+		}
+		
+		if(i>4)
+		{
+			document.getElementById('editor').innerHTML += ('<div class="col-lg-3 text-center mt-5 mb-5 mb-lg-0"><i class="fas fa-user-edit fa-2x mb-3"></i><div><h5>'+name+'</h5></div><div>'+role+'</div><div class="d-block">'+designation+'</div></div>');
+		}
+      }
+ });
+  
+ $.getJSON(urlmembersdata, function(data) {
+
+  var sheetData = data.feed.entry;
+
+      var i;
+      for (i = 0; i<30; i++) {
+
+        var name = data.feed.entry[i]['gsx$_cn6ca']['$t'];
+
+        document.getElementById('members').innerHTML += ('<div class="col-lg-2 text-center mt-5 mb-5 mb-lg-0"><i class="fas fa-user-alt fa-2x mb-3" style="-webkit-animation: rotation 1s infinite alternate linear;"></i><div><h5>'+name+'</h5></div></div>');
+
+      }
+ });
+ 
+ $.getJSON(urlcontactinfo, function(data) {
+
+  var sheetData = data.feed.entry;
+
+      var i;
+      for (i = 0; i<sheetData.length; i++) {
+
+        var name = data.feed.entry[i]['gsx$_cn6ca']['$t'];
+        var mobile = data.feed.entry[i]['gsx$_cokwr']['$t'];
+
+        document.getElementById('contactinfo').innerHTML += ('<div class="col-lg-4 text-center mb-5 mb-lg-0"><i class="fas fa-phone fa-3x mb-3 text-primary" style="-webkit-animation: rotationp 1s infinite alternate linear;"></i><div>'+name+'</div><div>+91 '+mobile+'</div></div>');
+
+      }
+ });
+ 
+  </script>
+
+</body>
+
+</html>
