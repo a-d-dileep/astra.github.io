@@ -64,15 +64,6 @@ header .overlay {
   z-index: 1;
 }
 
-@media (pointer: coarse) and (hover: none) {
-  header {
-    background: url('Resources\Nebula.jpg') black no-repeat center center scroll;
-  }
-  header video {
-    display: none;
-  }
-}
-
 @-webkit-keyframes glow {
   from {
     text-shadow: 0 0 10px #e25822, 0 0 20px #e25822, 0 0 30px #e25822, 0 0 40px #e25822, 0 0 50px #e25822, 0 0 60px #e25822, 0 0 70px #e25822 ,0 0 80px #e25822;
@@ -170,7 +161,7 @@ header .overlay {
   <!-- Masthead -->
   <header class="masthead">
   <div class="overlay"></div>
-	<video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+	<video poster="Nebula.jpg" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
 		<source src="Resources/Video.mp4" type="video/mp4">
 		<source src="Resources/Video.webm" type="video/webm">
 		<source src="Resources/Video.ogv" type="video/ogg">
